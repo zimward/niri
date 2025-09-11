@@ -11,4 +11,5 @@ Before=xdg-desktop-autostart.target
 [Service]
 Slice=session.slice
 Type=notify
+OOMScoreAdjust=0
 ExecStart=/usr/bin/niri --session
